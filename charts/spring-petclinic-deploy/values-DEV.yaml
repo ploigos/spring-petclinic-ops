@@ -2,4 +2,4 @@ replicaCount: 1
 image:
   #tag: quay.io/aagreen/spring-petclinic@sha256:DOES_NOT_EXIST_2 # written by ploigos-step-runner
   #tag: quay.io/aagreen/spring-petclinic@sha256:5353d09fcb15148041bbb70fa657c1c3b84f63747cd12458a6b777c4ca5b4b20 # written by ploigos-step-runner
-  tag: quay.io/aagreen/spring-petclinic@sha256:52e7fda805f50da53f7ae6dd7315a3fe09de750bf2e0ef956a7a8504ac58267c # written by ploigos-step-runner
+  tag: quay.io/aagreen/spring-petclinic@sha256:2189da9f3b036778a96f30f9297e48d343a7c4e7cb59d5567fd25da5279dab67 # written by ploigos-step-runner
