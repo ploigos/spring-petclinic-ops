@@ -1,3 +1,3 @@
 replicaCount: 1
 image:
-  tag: quay.io/aagreen/spring-petclinic@sha256:141b8eb668fce27fda07efb8e9cebadac4d651cb4658e2ce888fae7d398b7737 # written by ploigos-step-runner
+  tag: quay.io/aagreen/spring-petclinic@sha256:52394df8a675f373dbaa24ffd51f615122a9b1bb7fc2e1e85c27fd14774981b4 # written by ploigos-step-runner
