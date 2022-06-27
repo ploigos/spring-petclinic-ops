@@ -4,7 +4,7 @@ image:
   pullPolicy: Always
 
 service:
-  name: spring-petclinic
+  name: petclinic
   type: ClusterIP
   port: 80
   targetport: 8080
@@ -14,7 +14,7 @@ probe:
   livepath:  /
 
 route:
-  name: spring-petclinic
+  name: petclinic
   enabled: True
   annotations: {
   }
