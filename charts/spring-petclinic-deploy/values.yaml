@@ -37,3 +37,28 @@ tolerations: []
 
 affinity: {
 }
+
+pullSecret:
+  enabled: "true"
+  secretName: "pull-secret"
+  secretKey: ".dockerconfigjson"
+
+# Vault values
+
+# Vault storage backend
+vaultStorage: "vault-backend"
+vaultSecret: "vault-secret"
+vaultKey: "token"
+
+# Vault Keys
+vault:
+  registry2:
+    host:
+      key: secret/registry2
+      property: host
+    user:
+      key: secret/registry2
+      property: user
+    password:
+      key: secret/registry2
+      property: password
