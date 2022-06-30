@@ -23,8 +23,10 @@ spec:
       annotations:
         alwaysRoll: {{ randAlphaNum 5 | quote }}
     spec:
+      {{- if .Values.pullSecret.enabled }}
       imagePullSecrets:
         - name: {{ .Values.pullSecret.secretName }}
+      {{- end}}
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.tag }}"
