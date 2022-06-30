@@ -27,6 +27,7 @@ spec:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          imagePullSecret: {{ .Values.pullSecret.secretName }}
           ports:
             - name: http
               containerPort: {{ .Values.service.targetport }}
