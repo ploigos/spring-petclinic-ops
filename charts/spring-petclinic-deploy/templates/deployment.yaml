@@ -23,11 +23,12 @@ spec:
       annotations:
         alwaysRoll: {{ randAlphaNum 5 | quote }}
     spec:
+      imagePullSecrets:
+        - name: {{ .Values.pullSecret.secretName }}
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          imagePullSecret: {{ .Values.pullSecret.secretName }}
           ports:
             - name: http
               containerPort: {{ .Values.service.targetport }}
