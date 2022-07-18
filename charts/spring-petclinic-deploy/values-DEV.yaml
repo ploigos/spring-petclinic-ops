@@ -1,3 +1,3 @@
 replicaCount: 1
 image:
-  tag:
+  tag: ploigos2.jfrog.io/ploigos/spring-petclinic@sha256:69f4fdcda024a8b8db1309c82250c252455db3cb9011cb78fcfc27eccd910f56 # written by ploigos-step-runner
