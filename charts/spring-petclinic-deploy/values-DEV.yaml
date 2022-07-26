@@ -1,3 +1,3 @@
 replicaCount: 1
 image:
-  tag: nexus-docker-devsecops.apps.n7qzypo3.eastus.aroapp.io/ploigos/spring-petclinic@sha256:81e9eda9c27ef9146311c3781a1879469207d87bfa00e72c0e87a92693239e20 # written by ploigos-step-runner
+  tag: nexus-docker-devsecops.apps.n7qzypo3.eastus.aroapp.io/ploigos/spring-petclinic@sha256:b19ec9e6263edb9a35a6c66f0b88d331b9f503327567f074d1c57804ddb0bd12 # written by ploigos-step-runner
